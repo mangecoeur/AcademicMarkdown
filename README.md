@@ -5,9 +5,10 @@ This extension to MarkdownEditing adds an Academic Markdown language variant, cu
 - Highlighting for @Citekey notation (Pandoc version).
 
 ## Installation
-AcademicMarkdown can be installed from a source archive by unzipping into your Sublime Text "Packages" folder (make sure the folder is named AcademicMarkdown).
+AcademicMarkdown is available on Sublime Package Control
 
-It should also be available through PackageControl shortly
+AcademicMarkdown can also be installed from a source archive by unzipping into your Sublime Text "Packages" folder (make sure the extracted folder is named AcademicMarkdown).
+
  
 
 
