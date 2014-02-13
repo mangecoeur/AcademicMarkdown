@@ -1,6 +1,6 @@
 [
   { 
-    "keys": ["command+shift+c"],  
+    "keys": ["ctrl+shift+c"],  
     "command": "insert_snippet", 
     "args": {"name": "Packages/AcademicMarkdown/snippets/Critic_comment_closed.sublime-snippet"},
     "context": [
