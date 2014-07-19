@@ -2,10 +2,10 @@
   { 
     "keys": ["ctrl+shift+c"],  
     "command": "insert_snippet", 
-    "args": {"name": "Packages/AcademicMarkdown/snippets/Critic_comment_closed.sublime-snippet"},
+    "args": {"name": "${packages}/AcademicMarkdown/snippets/Critic_comment_closed.sublime-snippet"},
     "context": [
     	{
-    		"key": "selector",
+    	"key": "selector",
     	 "operator": "equal",
     	 "operand": "text.html.markdown.academicmarkdown"
     	}

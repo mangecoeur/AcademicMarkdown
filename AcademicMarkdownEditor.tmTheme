@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>MarkdownEditing</string>
+    <string>AcademicMarkdown</string>
     <key>settings</key>
     <array>
         <dict>
@@ -370,7 +370,7 @@
             <string>HTML: Tags</string>
             <key>scope</key>
             <string>
-                , text.html.markdown meta.disable-markdown entity.name.tag,
+                text.html.markdown meta.disable-markdown entity.name.tag,
                 , text.html.markdown meta.disable-markdown meta.tag,
                 , text.html.markdown meta.disable-markdown meta.tag punctuation.definition.tag,
                 , text.html.markdown meta.disable-markdown meta.tag string.quoted meta.string-contents,
@@ -683,34 +683,34 @@
             <string>Markup: Strikethrough</string>
             <key>scope</key>
             <string>
-                , markup.strikethrough,
-                , markup.strikethrough.markdown,
-                , markup.strikethrough constant.other.reference.link.markdown,
-                , markup.strikethrough entity.name.tag,
-                , markup.strikethrough markup.bold,
-                , markup.strikethrough markup.bold.markdown,
-                , markup.strikethrough markup.italic,
-                , markup.strikethrough markup.italic.markdown,
-                , markup.strikethrough markup.raw.inline.markdown,
-                , markup.strikethrough markup.underline.link.image.markdown,
-                , markup.strikethrough markup.underline.link.markdown,
-                , markup.strikethrough meta.link.inet.markdown markup.underline.link.markdown,
-                , markup.strikethrough meta.link.email.lt-gt.markdown markup.underline.link.markdown,
-                , markup.strikethrough punctuation.definition.bold.markdown,
-                , markup.strikethrough punctuation.definition.italic.markdown,
-                , markup.strikethrough punctuation.definition.constant.begin.markdown,
-                , markup.strikethrough punctuation.definition.constant.end.markdown,
-                , markup.strikethrough punctuation.definition.constant.markdown,
-                , markup.strikethrough punctuation.definition.metadata.markdown,
-                , markup.strikethrough punctuation.definition.raw.markdown,
-                , markup.strikethrough punctuation.definition.strikethrough.markdown,
-                , markup.strikethrough punctuation.definition.string.begin.markdown,
-                , markup.strikethrough punctuation.definition.string.end.markdown,
-                , markup.strikethrough punctuation.definition.tag.begin.html,
-                , markup.strikethrough punctuation.definition.tag.end.html,
-                , markup.strikethrough string.other.link.description.markdown,
-                , markup.strikethrough string.other.link.description.title.markdown,
-                , markup.strikethrough string.other.link.title.markdown,
+                markup.strikethrough,
+                markup.strikethrough.markdown,
+                markup.strikethrough constant.other.reference.link.markdown,
+                markup.strikethrough entity.name.tag,
+                markup.strikethrough markup.bold,
+                markup.strikethrough markup.bold.markdown,
+                markup.strikethrough markup.italic,
+                markup.strikethrough markup.italic.markdown,
+                markup.strikethrough markup.raw.inline.markdown,
+                markup.strikethrough markup.underline.link.image.markdown,
+                markup.strikethrough markup.underline.link.markdown,
+                markup.strikethrough meta.link.inet.markdown markup.underline.link.markdown,
+                markup.strikethrough meta.link.email.lt-gt.markdown markup.underline.link.markdown,
+                markup.strikethrough punctuation.definition.bold.markdown,
+                markup.strikethrough punctuation.definition.italic.markdown,
+                markup.strikethrough punctuation.definition.constant.begin.markdown,
+                markup.strikethrough punctuation.definition.constant.end.markdown,
+                markup.strikethrough punctuation.definition.constant.markdown,
+                markup.strikethrough punctuation.definition.metadata.markdown,
+                markup.strikethrough punctuation.definition.raw.markdown,
+                markup.strikethrough punctuation.definition.strikethrough.markdown,
+                markup.strikethrough punctuation.definition.string.begin.markdown,
+                markup.strikethrough punctuation.definition.string.end.markdown,
+                markup.strikethrough punctuation.definition.tag.begin.html,
+                markup.strikethrough punctuation.definition.tag.end.html,
+                markup.strikethrough string.other.link.description.markdown,
+                markup.strikethrough string.other.link.description.title.markdown,
+                markup.strikethrough string.other.link.title.markdown
             </string>
             <key>settings</key>
             <dict>
@@ -725,8 +725,8 @@
             <string>Markup: Strikethrough (Keyboard Shortcut)</string>
             <key>scope</key>
             <string>
-                , markup.strikethrough markup.kbd.content,
-                , markup.strikethrough markup.kbd.content.markdown,
+                markup.strikethrough markup.kbd.content,
+                markup.strikethrough markup.kbd.content.markdown
             </string>
             <key>settings</key>
             <dict>
@@ -778,8 +778,8 @@
             <string>Markup: Plain Link</string>
             <key>scope</key>
             <string>
-                , meta.link.inet.markdown markup.underline.link.markdown,
-                , meta.link.email.lt-gt.markdown markup.underline.link.markdown,
+                meta.link.inet.markdown markup.underline.link.markdown,
+                meta.link.email.lt-gt.markdown markup.underline.link.markdown
             </string>
             <key>settings</key>
             <dict>
@@ -876,12 +876,12 @@
             <string>Blockquote (Tags)</string>
             <key>scope</key>
             <string>
-                , text.html.markdown markup.quote.markdown entity.name.tag,
-                , text.html.markdown markup.quote.markdown meta.tag,
-                , text.html.markdown markup.quote.markdown meta.tag punctuation.definition.tag,
-                , text.html.markdown markup.quote.markdown meta.tag string.quoted meta.string-contents,
-                , text.html.markdown markup.quote.markdown meta.tag string.quoted punctuation.definition.string,
-                , text.html.markdown markup.quote.markdown meta.tag entity.other.attribute-name,
+                text.html.markdown markup.quote.markdown entity.name.tag,
+                text.html.markdown markup.quote.markdown meta.tag,
+                text.html.markdown markup.quote.markdown meta.tag punctuation.definition.tag,
+                text.html.markdown markup.quote.markdown meta.tag string.quoted meta.string-contents,
+                text.html.markdown markup.quote.markdown meta.tag string.quoted punctuation.definition.string,
+                text.html.markdown markup.quote.markdown meta.tag entity.other.attribute-name
             </string>
             <key>settings</key>
             <dict>
@@ -909,8 +909,8 @@
             <string>Blockquote (Bold)</string>
             <key>scope</key>
             <string>
-                , text.html.markdown markup.quote.markdown markup.bold,
-                , text.html.markdown markup.quote.markdown markup.bold.markdown,
+                text.html.markdown markup.quote.markdown markup.bold,
+                text.html.markdown markup.quote.markdown markup.bold.markdown
             </string>
             <key>settings</key>
             <dict>
