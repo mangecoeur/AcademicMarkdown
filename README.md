@@ -1,6 +1,8 @@
 # Academic Markdown
 This extension to MarkdownEditing adds an Academic Markdown language variant, currently under development.
 
+**IMPORTANT: REQUIRES MARKDOWNEDITING TO BE INSTALLED**
+
 ## Features
 - Highlighting for [CriticMarkup](http://criticmarkup.com/) notation
 - Highlighting for @Citekey notation (Pandoc version).

@@ -2,7 +2,7 @@
   { 
     "keys": ["command+shift+c"],  
     "command": "insert_snippet", 
-    "args": {"name": "${packages}/AcademicMarkdown/snippets/Critic_comment_closed.sublime-snippet"},
+    "args": {"name": "Packages/AcademicMarkdown/snippets/Critic_comment_closed.sublime-snippet"},
     "context": [
     	{
     		"key": "selector",
