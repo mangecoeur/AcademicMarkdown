@@ -4,7 +4,7 @@
 		"md"
 	],
 
-	"color_scheme": "Packages/Academic Markdown/AcademicMarkdownEditor.tmTheme",
+	"color_scheme": "Packages/AcademicMarkdown/AcademicMarkdownEditor.tmTheme",
 	// "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
 	// "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Yellow.tmTheme",
 
