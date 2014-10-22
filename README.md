@@ -16,6 +16,10 @@ AcademicMarkdown is available on Sublime Package Control
 
 AcademicMarkdown can also be installed from a source archive by unzipping into your Sublime Text "Packages" folder (make sure the extracted folder is named AcademicMarkdown).
 
+## See Also
+
+[Citer](https://github.com/mangecoeur/Citer) - SublimeText 3 plugin to insert citations from Bibtex into you markdown file
+
  
 
 
