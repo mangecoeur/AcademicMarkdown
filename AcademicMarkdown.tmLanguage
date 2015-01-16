@@ -433,7 +433,7 @@
 			<key>comment</key>
 			<string>This should highlight citekeys and @refs</string>
 			<key>match</key>
-			<string>@\w+</string>
+			<string>@[\w:-]+</string>
 			<key>name</key>
 			<string>string.other.link.description.title.markdown</string>
 		</dict>
