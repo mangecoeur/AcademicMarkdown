@@ -24,7 +24,7 @@
                                 "command": "open_file",
                                 "args": {"file": "${packages}/User/AcademicMarkdown.sublime-settings"},
                                 "caption": "AcademicMarkdown Settings – User"
-                            },
+                            }
 
                         ]
                     }

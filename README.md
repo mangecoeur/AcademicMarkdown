@@ -1,3 +1,4 @@
+
 # Academic Markdown
 This extension to MarkdownEditing adds an Academic Markdown language variant, currently under development.
 
@@ -19,7 +20,3 @@ AcademicMarkdown can also be installed from a source archive by unzipping into y
 ## See Also
 
 [Citer](https://github.com/mangecoeur/Citer) - SublimeText 3 plugin to insert citations from Bibtex into you markdown file
-
- 
-
-
