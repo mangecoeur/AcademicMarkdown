@@ -2,7 +2,7 @@
 # Academic Markdown
 This extension to MarkdownEditing adds an Academic Markdown language variant, currently under development.
 
-**IMPORTANT: REQUIRES MARKDOWNEDITING TO BE INSTALLED**
+**IMPORTANT: REQUIRES [MARKDOWNEDITING](https://packagecontrol.io/packages/MarkdownEditing) TO BE INSTALLED**
 
 ## Features
 - Highlighting for [CriticMarkup](http://criticmarkup.com/) notation
@@ -11,12 +11,11 @@ This extension to MarkdownEditing adds an Academic Markdown language variant, cu
 ## Shortcuts
 Create comment/turn selection into comment: Cmd+shit+c (OSX), Ctrl+shit+c (Win/Linux)
 
-
 ## Installation
 AcademicMarkdown is available on Sublime Package Control
 
 AcademicMarkdown can also be installed from a source archive by unzipping into your Sublime Text "Packages" folder (make sure the extracted folder is named AcademicMarkdown).
 
-## See Also
+## Citations
 
 [Citer](https://github.com/mangecoeur/Citer) - SublimeText 3 plugin to insert citations from Bibtex into you markdown file
