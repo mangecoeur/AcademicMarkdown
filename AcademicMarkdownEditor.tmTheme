@@ -982,7 +982,19 @@
 
         <!-- Below definitions belong to thirdparty plugins. -->
         <!-- critimarkdown addition-->
-
+        <dict>
+            <key>name</key>
+            <string>Addition</string>
+            <key>scope</key>
+            <string>criticmarkup.substitution</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#cacd13</string>
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>Addition</string>

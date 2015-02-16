@@ -384,7 +384,7 @@
 			<key>comment</key>
 			<string>Editorial Substitution</string>
 			<key>match</key>
-			<string>\{~~(.*?)~~\}</string>
+			<string>\{\~\~(.*?)\~\~\}</string>
 			<key>name</key>
 			<string>criticmarkup.substitution</string>
 		</dict>
@@ -411,7 +411,7 @@
 			<key>highlight</key>
 			<string>Editorial Highlight</string>
 			<key>match</key>
-			<string>\{\{(.*?)[ \t]*(\[(.*?)\])?[ \t]*\}\}</string>
+			<string>\{==(.*?)[ \t]*(\[(.*?)\])?[ \t]*==\}</string>			
 			<key>name</key>
 			<string>criticmarkup.highlight</string>
 		</dict>
