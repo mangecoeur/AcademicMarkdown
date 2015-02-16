@@ -1036,6 +1036,21 @@
             </dict>
         </dict>
 
+        <dict>
+            <key>name</key>
+            <string>substitution</string>
+            <key>scope</key>
+            <string>criticmarkup.substitution</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#E78400</string>
+            </dict>
+        </dict>
+
+
         <!-- end of critimarkdown addition-->
 
 
