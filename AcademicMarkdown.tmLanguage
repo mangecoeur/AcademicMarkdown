@@ -431,9 +431,9 @@
 		<key>inlinemath</key>
 		<dict>
 			<key>comment</key>
-			<string>For highlighting math between single dollar signs</string>
+			<string>For highlighting math between single dollar signs unless followed by number</string>
 			<key>begin</key>
-			<string>\$(?!\$)</string>
+			<string>\$(?!\$)(?![0-9])</string>
 			<key>end</key>
 			<string>\$(?!\$)</string>
 			<key>name</key>
