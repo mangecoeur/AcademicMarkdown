@@ -924,7 +924,7 @@
 				<key>16</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.metadata.markdown</string>
+					<string>punctuation.definition.string.end.markdown</string>
 				</dict>
 				<key>2</key>
 				<dict>
