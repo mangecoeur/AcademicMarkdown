@@ -431,7 +431,7 @@
 		<key>inlinemath</key>
 		<dict>
 			<key>comment</key>
-			<string>This should highlight citekeys and @refs</string>
+			<string>For highlighting math between single dollar signs</string>
 			<key>begin</key>
 			<string>\$(?!\$)</string>
 			<key>end</key>
@@ -443,7 +443,7 @@
 		<key>displaymath</key>
 		<dict>
 			<key>comment</key>
-			<string>This should highlight citekeys and @refs</string>
+			<string>For highlighting math between double dollar signs</string>
 			<key>begin</key>
 			<string>\$\$</string>
 			<key>end</key>
