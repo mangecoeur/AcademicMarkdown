@@ -428,6 +428,30 @@
 		</dict>
 		<!-- End Critic markdown rules -->
 
+		<key>inlinemath</key>
+		<dict>
+			<key>comment</key>
+			<string>This should highlight citekeys and @refs</string>
+			<key>begin</key>
+			<string>\$(?!\$)</string>
+			<key>end</key>
+			<string>\$(?!\$)</string>
+			<key>name</key>
+			<string>math.inline</string>
+		</dict>
+
+		<key>displaymath</key>
+		<dict>
+			<key>comment</key>
+			<string>This should highlight citekeys and @refs</string>
+			<key>begin</key>
+			<string>\$\$</string>
+			<key>end</key>
+			<string>\$\$</string>
+			<key>name</key>
+			<string>math.display</string>
+		</dict>
+
 		<key>citekeys</key>
 		<dict>
 			<key>comment</key>
@@ -1025,6 +1049,14 @@
 				<dict>
 					<key>include</key>
 					<string>#citekeys</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#inlinemath</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#displaymath</string>
 				</dict>
 				<dict>
 					<key>include</key>
