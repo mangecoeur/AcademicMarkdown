@@ -1065,7 +1065,33 @@
 
         <!-- end of critimarkdown addition-->
 
+        <dict>
+            <key>name</key>
+            <string>displaymath</string>
+            <key>scope</key>
+            <string>math.display</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#777777</string>
+                <key>background</key>
+                <string>#DFDFDF</string>
+            </dict>
+        </dict>
 
+        <dict>
+            <key>name</key>
+            <string>inlinemath</string>
+            <key>scope</key>
+            <string>math.inline</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#777777</string>
+                <key>background</key>
+                <string>#DFDFDF</string>
+            </dict>
+        </dict>
         
         <dict>
             <key>name</key>

@@ -428,6 +428,30 @@
 		</dict>
 		<!-- End Critic markdown rules -->
 
+		<key>inlinemath</key>
+		<dict>
+			<key>comment</key>
+			<string>For highlighting math between single dollar signs unless followed by number</string>
+			<key>begin</key>
+			<string>\$(?!\$)(?![0-9])</string>
+			<key>end</key>
+			<string>\$(?!\$)</string>
+			<key>name</key>
+			<string>math.inline</string>
+		</dict>
+
+		<key>displaymath</key>
+		<dict>
+			<key>comment</key>
+			<string>For highlighting math between double dollar signs</string>
+			<key>begin</key>
+			<string>\$\$</string>
+			<key>end</key>
+			<string>\$\$</string>
+			<key>name</key>
+			<string>math.display</string>
+		</dict>
+
 		<key>citekeys</key>
 		<dict>
 			<key>comment</key>
@@ -900,7 +924,7 @@
 				<key>16</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.metadata.markdown</string>
+					<string>punctuation.definition.string.end.markdown</string>
 				</dict>
 				<key>2</key>
 				<dict>
@@ -1025,6 +1049,14 @@
 				<dict>
 					<key>include</key>
 					<string>#citekeys</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#inlinemath</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#displaymath</string>
 				</dict>
 				<dict>
 					<key>include</key>
