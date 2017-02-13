@@ -9,7 +9,7 @@ This extension to MarkdownEditing adds an Academic Markdown language variant, cu
 - Highlighting for @Citekey notation (Pandoc version).
 
 ## Shortcuts
-Create comment/turn selection into comment: Cmd+shit+c (OSX), Ctrl+shit+c (Win/Linux)
+Create comment/turn selection into comment: Cmd+shift+c (OSX), Ctrl+shift+c (Win/Linux)
 
 ## Installation
 AcademicMarkdown is available on Sublime Package Control
