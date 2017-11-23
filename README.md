@@ -9,7 +9,7 @@ This extension to MarkdownEditing adds an Academic Markdown language variant, cu
 - Highlighting for @Citekey notation ([Pandoc version](https://pandoc.org/MANUAL.html#citations))
 
 ## Shortcuts
-Create comment/turn selection into comment: Cmd+shift+c (OSX), Ctrl+shift+c (Win/Linux)
+Create comment/turn selection into comment: `Cmd`+`Shift`+`C` (macOS), `Ctrl`+`Shift`+`C` (Win/Linux)
 
 ## Installation
 AcademicMarkdown is available on [Sublime Package Control](https://packagecontrol.io/packages/AcademicMarkdown).
@@ -18,4 +18,4 @@ AcademicMarkdown can also be installed from a source archive by unzipping into y
 
 ## Citations
 
-[Citer](https://github.com/mangecoeur/Citer) - SublimeText 3 plugin to insert citations from Bibtex into you markdown file
+[Citer](https://github.com/mangecoeur/Citer) - SublimeText 3 plugin to insert citations from BibTeX into you `.md` file.
